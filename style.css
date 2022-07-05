@@ -21,9 +21,9 @@ body {
 .half-top a {
 
     text-decoration: none;
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(to right, red, tomato);
     border-radius: 50px;
-    padding: 10px;
+    padding: 20px;
 
 
 }
@@ -35,8 +35,27 @@ body {
 
 }
 
-img {
+.half-mid-lt {
+    width: 50%;
+    margin: 50px;
+
+
+}
+
+
+
+.half-top-rt img {
+
     width: 100%;
+
+
+}
+
+.half-mid-lt img {
+
+    width: 70%;
+
+
 
 }
 
@@ -44,6 +63,18 @@ img {
 
     display: flex;
 
+}
+
+.mid-ban {
+
+    display: flex;
+    background-image: url("images/frm.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border: 2px solid green;
+    height: auto;
+    margin: 0;
 }
 
 h1 {
@@ -54,4 +85,23 @@ h1 {
 p {
 
     font-size: 20px;
+}
+
+
+.half-mid {
+
+    width: 50%;
+    margin: 70px;
+
+
+}
+
+.half-mid a {
+
+    text-decoration: none;
+    background-image: linear-gradient(to right, red, tomato);
+    border-radius: 50px;
+    padding: 20px;
+
+
 }
